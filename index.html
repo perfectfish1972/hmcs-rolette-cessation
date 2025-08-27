@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HMCS Frédérick Rolette – Tobacco & Vaping Cessation Resources</title>
+  <style>
+    :root{
+      --navy:#0a2a4a;
+      --crest-blue:#1e6bd6;
+      --bg:#f3f4f6;
+      --text:#0f172a;
+      --muted:#475569;
+      --card:#ffffff;
+      --radius:16px;
+      --shadow:0 8px 20px rgba(0,0,0,.06);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.45}
+    .wrap{max-width:880px;margin:0 auto;padding:20px}
+    header{
+      background:linear-gradient(90deg,var(--crest-blue) 0%, var(--navy) 100%);
+      color:#fff;border-radius:0 0 var(--radius) var(--radius);
+      box-shadow:var(--shadow);padding:18px 16px;
+    }
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{width:56px;height:56px;object-fit:contain;flex:0 0 56px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.2))}
+    .title{font-size:1.5rem;font-weight:800;margin:0;letter-spacing:.2px}
+    .subtitle{font-size:1.05rem;opacity:.95;margin:4px 0 0 0}
+    .section{background:var(--card);border-radius:var(--radius);padding:18px;margin:16px 0;box-shadow:var(--shadow)}
+    .section h2{margin:0 0 8px 0;font-size:1.2rem;color:var(--navy)}
+    .desc{color:var(--muted);margin:0 0 12px 0}
+    .resource{padding:14px;border:1px solid #e5e7eb;border-radius:14px;margin:12px 0}
+    .resource h3{margin:0 0 6px 0;font-size:1.05rem}
+    .resource .rdesc{margin:0 0 12px 0;color:var(--muted)}
+    .btns{display:grid;grid-template-columns:1fr;gap:10px}
+    .btn{display:inline-block;text-align:center;text-decoration:none;padding:14px 16px;border-radius:12px;background:var(--navy);color:#fff;font-weight:700;box-shadow:var(--shadow);transition:transform .04s ease, opacity .2s ease;}
+    .btn:hover{opacity:.92}
+    .btn:active{transform:scale(.98)}
+    .btn.secondary{background:var(--crest-blue)}
+    .note{font-size:.9rem;color:#334155;background:#eff6ff;border-left:4px solid var(--crest-blue);padding:8px 10px;border-radius:8px;margin:10px 0}
+    footer{color:#64748b;font-size:.9rem;padding:16px 6px 48px;text-align:center}
+    @media (min-width:700px){.btns{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <img src="IMG_2434.PNG" alt="HMCS Frédérick Rolette crest (blue lion with sword)" />
+        <div>
+          <h1 class="title">HMCS Frédérick Rolette – Tobacco & Vaping Cessation Resources</h1>
+          <p class="subtitle">Support and resources to help you quit smoking and vaping.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section">
+      <h2>On-Base Pharmacy Support</h2>
+      <p class="desc">CAF members can access nicotine replacement therapy (NRT) directly through the base clinic pharmacy.</p>
+      <div class="resource">
+        <h3>Pharmacy Tobacco Replacement Therapy Program</h3>
+        <p class="rdesc">Visit the pharmacy at the Stadacona base clinic for assistance with nicotine replacement therapy (NRT).</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Provincial Programs</h2>
+      <div class="resource">
+        <h3>NSHA – Stop Smoking Program</h3>
+        <p class="rdesc">Offers group and individual counselling, virtual options, and access to quit aids.</p>
+        <div class="btns">
+          <a class="btn" href="https://mha.nshealth.ca/en/stop-smoking-program" target="_blank" rel="noopener">Visit NSHA Program</a>
+        </div>
+      </div>
+
+      <div class="resource">
+        <h3>Smoke-Free Nova Scotia</h3>
+        <p class="rdesc">Digital resources, counselling referrals, and self-help tools.</p>
+        <div class="btns">
+          <a class="btn" href="https://smokefreens.ca" target="_blank" rel="noopener">Visit Smoke-Free Nova Scotia</a>
+        </div>
+      </div>
+
+      <div class="resource">
+        <h3>Tobacco Free Nova Scotia</h3>
+        <p class="rdesc">Quitline, secure chat, SMS supports, quit packs, and multilingual resources.</p>
+        <div class="btns">
+          <a class="btn" href="tel:811">Call Quitline 811</a>
+          <a class="btn secondary" href="sms:+19027007700?&body=SMOKEFREE">Text SMOKEFREE</a>
+          <a class="btn" href="https://tobaccofree.novascotia.ca" target="_blank" rel="noopener">Visit Website</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>PANS – Community Pharmacy Primary Care Clinics</h2>
+      <div class="note"><strong>Note:</strong> Free cessation services — <em>must have a valid Nova Scotia Health Card</em>.</div>
+      <p class="desc">Free smoking cessation services, including counselling, quit plans, and prescriptions.</p>
+      <div class="resource">
+        <h3>Find a Participating Pharmacy</h3>
+        <p class="rdesc">Book online or contact the Pharmacy Association of Nova Scotia.</p>
+        <div class="btns">
+          <a class="btn" href="https://pans.ns.ca/quit-or-reduce-smoking-nicotine-products" target="_blank" rel="noopener">Book Online</a>
+          <a class="btn secondary" href="tel:+19024229583">Call PANS (902-422-9583)</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Additional Contact</h2>
+      <p class="desc">For general health promotion inquiries.</p>
+      <div class="resource">
+        <h3>Halifax Health Promotion Services</h3>
+        <p class="rdesc">Former facilitators of base wellness programs.</p>
+        <div class="btns">
+          <a class="btn" href="mailto:HFXHealthPromotion@forces.gc.ca">Email Health Promotion Services</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      This page is for informational purposes only. Some services may require a valid Nova Scotia Health Card.
+    </footer>
+  </main>
+</body>
+</html>
